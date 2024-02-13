@@ -1,0 +1,25 @@
+{
+    "values": [
+        "#flowers",
+        "grass",
+        "tall_grass",
+        "#crops",
+        "#fire",
+        "#buttons",
+        "air",
+        "cave_air",
+        "void_air",
+        "vine",
+        "cave_vines",
+        "dead_bush",
+        "seagrass",
+        "tall_seagrass",
+        "fern",
+        "large_fern",
+        "kelp",
+        "kelp_plant",
+        "snow",
+        "powder_snow",
+        "moss_carpet"
+    ]
+  }
