@@ -2,6 +2,7 @@ package net.pattygcoding.suprememc.init;
 
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +25,16 @@ public class SMCItems {
             () -> new SMCArmorItem(SMCArmorMaterials.BURNING_DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> BURNING_DIAMOND_BOOTS = ITEMS.register("burning_diamond_boots",
             () -> new SMCArmorItem(SMCArmorMaterials.BURNING_DIAMOND, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> FIRE_CREEPER_SPANW_EGG = ITEMS.register("fire_creeper_spawn_egg",
+            () -> new ForgeSpawnEggItem(SMCEntities.FIRE_CREEPER, 0xD4300D, 0x000000, new Item.Properties()));
+
+    public static final RegistryObject<Item> SNOW_CREEPER_SPANW_EGG = ITEMS.register("snow_creeper_spawn_egg",
+            () -> new ForgeSpawnEggItem(SMCEntities.SNOW_CREEPER, 0xFFFFFF, 0xBFFCFF, new Item.Properties()));
+
+    public static final RegistryObject<Item> SOUL_CREEPER_SPANW_EGG = ITEMS.register("soul_creeper_spawn_egg",
+            () -> new ForgeSpawnEggItem(SMCEntities.SOUL_CREEPER, 0x5BF7FF, 0x000000, new Item.Properties()));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
