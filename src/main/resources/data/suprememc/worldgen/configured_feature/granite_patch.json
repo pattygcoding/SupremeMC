@@ -22,7 +22,7 @@
       "feature": "minecraft:spring_lava_overworld",
       "placement": []
     },
-    "vertical_range": 256,
+    "vertical_range": 5,
     "xz_radius": {
       "type": "minecraft:uniform",
       "value": {

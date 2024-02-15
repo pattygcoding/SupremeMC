@@ -13,15 +13,9 @@
 
           }
         },
-        {            "weight": 5,
+        {            "weight": 2,
           "data": {
             "Name": "minecraft:magma_block"
-
-          }
-        },
-        {            "weight": 1,
-          "data": {
-            "Name": "minecraft:lava"
 
           }
         }
@@ -33,7 +27,7 @@
       "feature": "minecraft:spring_lava_overworld",
       "placement": []
     },
-    "vertical_range": 256,
+    "vertical_range": 5,
     "xz_radius": {
       "type": "minecraft:uniform",
       "value": {

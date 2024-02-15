@@ -1,6 +1,7 @@
 package net.pattygcoding.suprememc;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -12,6 +13,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.pattygcoding.suprememc.entity.client.FireCreeperRenderer;
+import net.pattygcoding.suprememc.entity.client.SnowCreeperRenderer;
+import net.pattygcoding.suprememc.entity.client.SoulCreeperRenderer;
+import net.pattygcoding.suprememc.init.SMCEntities;
 import net.pattygcoding.suprememc.init.SMCItems;
 import org.slf4j.Logger;
 
@@ -26,6 +31,7 @@ public class SupremeMC
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         SMCItems.register(modEventBus);
+        SMCEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -46,6 +52,9 @@ public class SupremeMC
             event.accept(SMCItems.BURNING_DIAMOND_CHESTPLATE);
             event.accept(SMCItems.BURNING_DIAMOND_LEGGINGS);
             event.accept(SMCItems.BURNING_DIAMOND_BOOTS);
+            event.accept(SMCItems.FIRE_CREEPER_SPANW_EGG);
+            event.accept(SMCItems.SNOW_CREEPER_SPANW_EGG);
+            event.accept(SMCItems.SOUL_CREEPER_SPANW_EGG);
         }
     }
 
@@ -60,6 +69,9 @@ public class SupremeMC
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
+            EntityRenderers.register(SMCEntities.FIRE_CREEPER.get(), FireCreeperRenderer::new);
+            EntityRenderers.register(SMCEntities.SNOW_CREEPER.get(), SnowCreeperRenderer::new);
+            EntityRenderers.register(SMCEntities.SOUL_CREEPER.get(), SoulCreeperRenderer::new);
         }
     }
 }
