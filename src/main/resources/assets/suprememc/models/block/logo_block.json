@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "suprememc:block/logo_block_bottom",
+    "side": "suprememc:block/logo_block_side",
+    "front": "suprememc:block/logo_block_side",
+    "top": "suprememc:block/logo_block_top"
+  }
+}

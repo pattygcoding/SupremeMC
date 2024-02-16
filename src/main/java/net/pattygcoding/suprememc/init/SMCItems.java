@@ -1,7 +1,6 @@
 package net.pattygcoding.suprememc.init;
 
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,8 +13,41 @@ import net.pattygcoding.suprememc.item.SMCArmorMaterials;
 public class SMCItems {
     public static final DeferredRegister<Item> ITEMS =  DeferredRegister.create(ForgeRegistries.ITEMS, SupremeMC.MOD_ID);
 
+    public static final RegistryObject<Item> AQUAMARINE = ITEMS.register("aquamarine",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BURNING_DIAMOND = ITEMS.register("burning_diamond",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> AQUAMARINE_SWORD = ITEMS.register("aquamarine_sword",
+            () -> new SwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_SHOVEL = ITEMS.register("aquamarine_shovel",
+            () -> new ShovelItem(Tiers.DIAMOND, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_PICKAXE = ITEMS.register("aquamarine_pickaxe",
+            () -> new PickaxeItem(Tiers.DIAMOND, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_AXE = ITEMS.register("aquamarine_axe",
+            () -> new AxeItem(Tiers.DIAMOND, 5.0F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_HOE = ITEMS.register("aquamarine_hoe",
+            () -> new HoeItem(Tiers.DIAMOND, -4, 0.0F, new Item.Properties()));
+
+    public static final RegistryObject<Item> AQUAMARINE_HELMET = ITEMS.register("aquamarine_helmet",
+            () -> new SMCArmorItem(SMCArmorMaterials.AQUAMARINE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_CHESTPLATE = ITEMS.register("aquamarine_chestplate",
+            () -> new SMCArmorItem(SMCArmorMaterials.AQUAMARINE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_LEGGINGS = ITEMS.register("aquamarine_leggings",
+            () -> new SMCArmorItem(SMCArmorMaterials.AQUAMARINE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> AQUAMARINE_BOOTS = ITEMS.register("aquamarine_boots",
+            () -> new SMCArmorItem(SMCArmorMaterials.AQUAMARINE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> BURNING_DIAMOND_SWORD = ITEMS.register("burning_diamond_sword",
+            () -> new SwordItem(Tiers.DIAMOND, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> BURNING_DIAMOND_SHOVEL = ITEMS.register("burning_diamond_shovel",
+            () -> new ShovelItem(Tiers.DIAMOND, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> BURNING_DIAMOND_PICKAXE = ITEMS.register("burning_diamond_pickaxe",
+            () -> new PickaxeItem(Tiers.DIAMOND, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> BURNING_DIAMOND_AXE = ITEMS.register("burning_diamond_axe",
+            () -> new AxeItem(Tiers.DIAMOND, 5.0F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> BURNING_DIAMOND_HOE = ITEMS.register("burning_diamond_hoe",
+            () -> new HoeItem(Tiers.DIAMOND, -4, 0.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> BURNING_DIAMOND_HELMET = ITEMS.register("burning_diamond_helmet",
             () -> new SMCArmorItem(SMCArmorMaterials.BURNING_DIAMOND, ArmorItem.Type.HELMET, new Item.Properties()));

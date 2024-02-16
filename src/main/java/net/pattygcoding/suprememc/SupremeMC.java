@@ -16,8 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pattygcoding.suprememc.entity.client.FireCreeperRenderer;
 import net.pattygcoding.suprememc.entity.client.SnowCreeperRenderer;
 import net.pattygcoding.suprememc.entity.client.SoulCreeperRenderer;
-import net.pattygcoding.suprememc.init.SMCEntities;
-import net.pattygcoding.suprememc.init.SMCItems;
+import net.pattygcoding.suprememc.init.*;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,31 +30,18 @@ public class SupremeMC
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         SMCItems.register(modEventBus);
+        SMCBlocks.register(modEventBus);
+        SMCEnchantments.register(modEventBus);
         SMCEntities.register(modEventBus);
+        SMCCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
 
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-    }
-
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-        {
-            event.accept(SMCItems.BURNING_DIAMOND);
-            event.accept(SMCItems.BURNING_DIAMOND_HELMET);
-            event.accept(SMCItems.BURNING_DIAMOND_CHESTPLATE);
-            event.accept(SMCItems.BURNING_DIAMOND_LEGGINGS);
-            event.accept(SMCItems.BURNING_DIAMOND_BOOTS);
-            event.accept(SMCItems.FIRE_CREEPER_SPANW_EGG);
-            event.accept(SMCItems.SNOW_CREEPER_SPANW_EGG);
-            event.accept(SMCItems.SOUL_CREEPER_SPANW_EGG);
-        }
     }
 
     @SubscribeEvent
