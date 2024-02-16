@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "D",
+        "D",
+        "R"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:cobbled_deepslate"
+        },
+        
+        "R":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "suprememc:deepslate_sword",
+        "count": 1
+    }
+}

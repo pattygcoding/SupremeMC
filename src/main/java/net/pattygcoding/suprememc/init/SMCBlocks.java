@@ -22,6 +22,12 @@ public class SMCBlocks
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.METAL)));
     public static final RegistryObject<Block> BURNING_DIAMOND_BLOCK = registerBlock("burning_diamond_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> COBBLED_ANDESITE = registerBlock("cobbled_andesite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> COBBLED_DIORITE = registerBlock("cobbled_diorite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> COBBLED_GRANITE = registerBlock("cobbled_granite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> AQUAMARINE_ORE = registerBlock("aquamarine_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore",
