@@ -12,6 +12,9 @@ import java.util.function.Supplier;
 
 public enum SMCArmorMaterials implements ArmorMaterial
 {
+    AQUAMARINE("aquamarine", 33, new int[]{3, 8, 6, 3}, 10,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
+            () -> Ingredient.of(SMCItems.AQUAMARINE.get())),
     BURNING_DIAMOND("burning_diamond", 33, new int[]{3, 8, 6, 3}, 10,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
             () -> Ingredient.of(SMCItems.BURNING_DIAMOND.get()));

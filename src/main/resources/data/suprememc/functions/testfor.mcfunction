@@ -1,1 +1,1 @@
-execute as @e[type=spider,tag=!NoConvert] at @s run function cave_spiders:convert
+execute as @e[type=spider,tag=!NoConvert] at @s run function suprememc:convert
