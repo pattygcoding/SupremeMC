@@ -18,4 +18,7 @@ public class SmeltingEnchantment extends Enchantment {
         return super.getMinCost(pEnchantmentLevel) + 50;
     }
 
+    public boolean checkCompatibility(Enchantment pEnch) {
+        return super.checkCompatibility(pEnch) && pEnch != Enchantments.SILK_TOUCH;
+    }
 }

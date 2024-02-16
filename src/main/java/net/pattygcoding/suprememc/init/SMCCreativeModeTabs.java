@@ -21,6 +21,9 @@ public class SMCCreativeModeTabs
                     .displayItems((pParameters, pOutput) -> {
                         // Building Blocks
                         pOutput.accept(SMCBlocks.LOGO_BLOCK.get());
+                        pOutput.accept(SMCBlocks.COBBLED_ANDESITE.get());
+                        pOutput.accept(SMCBlocks.COBBLED_DIORITE.get());
+                        pOutput.accept(SMCBlocks.COBBLED_GRANITE.get());
                         pOutput.accept(SMCBlocks.AQUAMARINE_BLOCK.get());
                         pOutput.accept(SMCBlocks.BURNING_DIAMOND_BLOCK.get());
                         // Ores
@@ -31,6 +34,31 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCItems.AQUAMARINE.get());
                         pOutput.accept(SMCItems.BURNING_DIAMOND.get());
                         // Tools
+                        pOutput.accept(SMCItems.ANDESITE_SWORD.get());
+                        pOutput.accept(SMCItems.ANDESITE_SHOVEL.get());
+                        pOutput.accept(SMCItems.ANDESITE_PICKAXE.get());
+                        pOutput.accept(SMCItems.ANDESITE_AXE.get());
+                        pOutput.accept(SMCItems.ANDESITE_HOE.get());
+                        pOutput.accept(SMCItems.BLACKSTONE_SWORD.get());
+                        pOutput.accept(SMCItems.BLACKSTONE_SHOVEL.get());
+                        pOutput.accept(SMCItems.BLACKSTONE_PICKAXE.get());
+                        pOutput.accept(SMCItems.BLACKSTONE_AXE.get());
+                        pOutput.accept(SMCItems.BLACKSTONE_HOE.get());
+                        pOutput.accept(SMCItems.DEEPSLATE_SWORD.get());
+                        pOutput.accept(SMCItems.DEEPSLATE_SHOVEL.get());
+                        pOutput.accept(SMCItems.DEEPSLATE_PICKAXE.get());
+                        pOutput.accept(SMCItems.DEEPSLATE_AXE.get());
+                        pOutput.accept(SMCItems.DEEPSLATE_HOE.get());
+                        pOutput.accept(SMCItems.DIORITE_SWORD.get());
+                        pOutput.accept(SMCItems.DIORITE_SHOVEL.get());
+                        pOutput.accept(SMCItems.DIORITE_PICKAXE.get());
+                        pOutput.accept(SMCItems.DIORITE_AXE.get());
+                        pOutput.accept(SMCItems.DIORITE_HOE.get());
+                        pOutput.accept(SMCItems.GRANITE_SWORD.get());
+                        pOutput.accept(SMCItems.GRANITE_SHOVEL.get());
+                        pOutput.accept(SMCItems.GRANITE_PICKAXE.get());
+                        pOutput.accept(SMCItems.GRANITE_AXE.get());
+                        pOutput.accept(SMCItems.GRANITE_HOE.get());
                         pOutput.accept(SMCItems.AQUAMARINE_SWORD.get());
                         pOutput.accept(SMCItems.AQUAMARINE_SHOVEL.get());
                         pOutput.accept(SMCItems.AQUAMARINE_PICKAXE.get());
