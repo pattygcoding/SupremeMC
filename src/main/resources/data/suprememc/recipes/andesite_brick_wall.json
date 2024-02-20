@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "brick_wall",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "suprememc:andesite_bricks"
+    }
+  },
+  "result": {
+    "item": "suprememc:andesite_brick_wall",
+    "count": 6
+  }
+}

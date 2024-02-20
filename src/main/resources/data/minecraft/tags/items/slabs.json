@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "suprememc:andesite_brick_slab",
+    "suprememc:diorite_brick_slab",
+    "suprememc:granite_brick_slab"
+  ]
+}

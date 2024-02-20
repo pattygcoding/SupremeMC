@@ -24,12 +24,37 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCBlocks.COBBLED_ANDESITE.get());
                         pOutput.accept(SMCBlocks.COBBLED_DIORITE.get());
                         pOutput.accept(SMCBlocks.COBBLED_GRANITE.get());
+                        pOutput.accept(SMCBlocks.ANDESITE_BRICKS.get());
+                        pOutput.accept(SMCBlocks.DIORITE_BRICKS.get());
+                        pOutput.accept(SMCBlocks.GRANITE_BRICKS.get());
                         pOutput.accept(SMCBlocks.AQUAMARINE_BLOCK.get());
                         pOutput.accept(SMCBlocks.BURNING_DIAMOND_BLOCK.get());
                         // Ores
                         pOutput.accept(SMCBlocks.AQUAMARINE_ORE.get());
                         pOutput.accept(SMCBlocks.DEEPSLATE_AQUAMARINE_ORE.get());
                         pOutput.accept(SMCBlocks.BURNING_DIAMOND_ORE.get());
+                        // Stairs
+                        pOutput.accept(SMCBlocks.COBBLED_ANDESITE_STAIRS.get());
+                        pOutput.accept(SMCBlocks.COBBLED_ANDESITE_SLAB.get());
+                        pOutput.accept(SMCBlocks.COBBLED_ANDESITE_WALL.get());
+                        pOutput.accept(SMCBlocks.GRANITE_BRICK_STAIRS.get());
+                        pOutput.accept(SMCBlocks.ANDESITE_BRICK_STAIRS.get());
+                        pOutput.accept(SMCBlocks.DIORITE_BRICK_STAIRS.get());
+                        pOutput.accept(SMCBlocks.GRANITE_BRICK_STAIRS.get());
+                        // Slabs
+                        pOutput.accept(SMCBlocks.COBBLED_DIORITE_STAIRS.get());
+                        pOutput.accept(SMCBlocks.COBBLED_DIORITE_SLAB.get());
+                        pOutput.accept(SMCBlocks.COBBLED_DIORITE_WALL.get());
+                        pOutput.accept(SMCBlocks.ANDESITE_BRICK_SLAB.get());
+                        pOutput.accept(SMCBlocks.DIORITE_BRICK_SLAB.get());
+                        pOutput.accept(SMCBlocks.GRANITE_BRICK_SLAB.get());
+                        // Walls
+                        pOutput.accept(SMCBlocks.COBBLED_GRANITE_STAIRS.get());
+                        pOutput.accept(SMCBlocks.COBBLED_GRANITE_SLAB.get());
+                        pOutput.accept(SMCBlocks.COBBLED_GRANITE_WALL.get());
+                        pOutput.accept(SMCBlocks.ANDESITE_BRICK_WALL.get());
+                        pOutput.accept(SMCBlocks.DIORITE_BRICK_WALL.get());
+                        pOutput.accept(SMCBlocks.GRANITE_BRICK_WALL.get());
                         // Items
                         pOutput.accept(SMCItems.AQUAMARINE.get());
                         pOutput.accept(SMCItems.BURNING_DIAMOND.get());
