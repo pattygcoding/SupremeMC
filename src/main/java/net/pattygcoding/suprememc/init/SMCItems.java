@@ -17,6 +17,14 @@ public class SMCItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BURNING_DIAMOND = ITEMS.register("burning_diamond",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CALAMARI = ITEMS.register("calamari",
+            () -> new Item(new Item.Properties().food(SMCFoods.CALAMARI)));
+    public static final RegistryObject<Item> COOKED_CALAMARI = ITEMS.register("cooked_calamari",
+            () -> new Item(new Item.Properties().food(SMCFoods.COOKED_CALAMARI)));
+    public static final RegistryObject<Item> COOKED_FUGU = ITEMS.register("cooked_fugu",
+            () -> new Item(new Item.Properties().food(SMCFoods.COOKED_FUGU)));
+    public static final RegistryObject<Item> FUGU = ITEMS.register("fugu",
+            () -> new Item(new Item.Properties().food(SMCFoods.FUGU)));
     public static final RegistryObject<Item> ANDESITE_SWORD = ITEMS.register("andesite_sword",
             () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> ANDESITE_SHOVEL = ITEMS.register("andesite_shovel",
