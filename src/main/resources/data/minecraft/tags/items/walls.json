@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "suprememc:andesite_brick_wall",
+    "suprememc:cobbled_andesite_wall",
+    "suprememc:cobbled_diorite_wall",
+    "suprememc:cobbled_granite_wall",
+    "suprememc:diorite_brick_wall",
+    "suprememc:end_stone_wall",
+    "suprememc:granite_brick_wall",
+    "suprememc:netherrack_wall",
+    "suprememc:polished_andesite_wall",
+    "suprememc:polished_diorite_wall",
+    "suprememc:polished_granite_wall",
+    "suprememc:smooth_stone_wall",
+    "suprememc:stone_wall"
+  ]
+}

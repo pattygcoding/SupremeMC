@@ -1,0 +1,9 @@
+{
+  	"type": "minecraft:smelting",
+  	"ingredient": {
+    "item": "minecraft:pufferfish"
+  	},
+  	"result": "suprememc:fugu",
+  	"experience": 0.3,
+  	"cookingtime": 200
+}

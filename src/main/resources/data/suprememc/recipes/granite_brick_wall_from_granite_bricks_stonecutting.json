@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "suprememc:granite_bricks"
+  },
+  "result": "suprememc:granite_brick_wall",
+  "count": 1
+}
