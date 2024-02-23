@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "suprememc:aquamarine_blocks"
+            "item": "suprememc:aquamarine_block"
           }
         ]
       }
