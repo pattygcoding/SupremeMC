@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "suprememc:burning_diamond_blocks"
+            "item": "suprememc:burning_diamond_block"
           }
         ]
       }

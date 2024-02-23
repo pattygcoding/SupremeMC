@@ -1,9 +1,29 @@
 {
   "replace": false,
   "values": [
+    "suprememc:amethyst_helmet",
+    "suprememc:amethyst_chestplate",
+    "suprememc:amethyst_leggings",
+    "suprememc:amethyst_boots",
+    "suprememc:aquamarine_helmet",
+    "suprememc:aquamarine_chestplate",
+    "suprememc:aquamarine_leggings",
+    "suprememc:aquamarine_boots",
     "suprememc:burning_diamond_helmet",
     "suprememc:burning_diamond_chestplate",
     "suprememc:burning_diamond_leggings",
-    "suprememc:burning_diamond_boots"
+    "suprememc:burning_diamond_boots",
+    "suprememc:copper_helmet",
+    "suprememc:copper_chestplate",
+    "suprememc:copper_leggings",
+    "suprememc:copper_boots",
+    "suprememc:emerald_helmet",
+    "suprememc:emerald_chestplate",
+    "suprememc:emerald_leggings",
+    "suprememc:emerald_boots",
+    "suprememc:ruby_helmet",
+    "suprememc:ruby_chestplate",
+    "suprememc:ruby_leggings",
+    "suprememc:ruby_boots"
   ]
 }

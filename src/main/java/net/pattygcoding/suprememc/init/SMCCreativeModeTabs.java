@@ -103,6 +103,8 @@ public class SMCCreativeModeTabs
                         // Items
                         pOutput.accept(SMCItems.AQUAMARINE.get());
                         pOutput.accept(SMCItems.BURNING_DIAMOND.get());
+                        pOutput.accept(SMCItems.RUBY.get());
+                        pOutput.accept(SMCItems.COPPER_NUGGET.get());
                         // Foods
                         pOutput.accept(SMCItems.CALAMARI.get());
                         pOutput.accept(SMCItems.COOKED_CALAMARI.get());
@@ -119,6 +121,11 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCItems.BLACKSTONE_PICKAXE.get());
                         pOutput.accept(SMCItems.BLACKSTONE_AXE.get());
                         pOutput.accept(SMCItems.BLACKSTONE_HOE.get());
+                        pOutput.accept(SMCItems.COPPER_SWORD.get());
+                        pOutput.accept(SMCItems.COPPER_SHOVEL.get());
+                        pOutput.accept(SMCItems.COPPER_PICKAXE.get());
+                        pOutput.accept(SMCItems.COPPER_AXE.get());
+                        pOutput.accept(SMCItems.COPPER_HOE.get());
                         pOutput.accept(SMCItems.DEEPSLATE_SWORD.get());
                         pOutput.accept(SMCItems.DEEPSLATE_SHOVEL.get());
                         pOutput.accept(SMCItems.DEEPSLATE_PICKAXE.get());
@@ -134,6 +141,21 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCItems.GRANITE_PICKAXE.get());
                         pOutput.accept(SMCItems.GRANITE_AXE.get());
                         pOutput.accept(SMCItems.GRANITE_HOE.get());
+                        pOutput.accept(SMCItems.AMETHYST_SWORD.get());
+                        pOutput.accept(SMCItems.AMETHYST_SHOVEL.get());
+                        pOutput.accept(SMCItems.AMETHYST_PICKAXE.get());
+                        pOutput.accept(SMCItems.AMETHYST_AXE.get());
+                        pOutput.accept(SMCItems.AMETHYST_HOE.get());
+                        pOutput.accept(SMCItems.EMERALD_SWORD.get());
+                        pOutput.accept(SMCItems.EMERALD_SHOVEL.get());
+                        pOutput.accept(SMCItems.EMERALD_PICKAXE.get());
+                        pOutput.accept(SMCItems.EMERALD_AXE.get());
+                        pOutput.accept(SMCItems.EMERALD_HOE.get());
+                        pOutput.accept(SMCItems.RUBY_SWORD.get());
+                        pOutput.accept(SMCItems.RUBY_SHOVEL.get());
+                        pOutput.accept(SMCItems.RUBY_PICKAXE.get());
+                        pOutput.accept(SMCItems.RUBY_AXE.get());
+                        pOutput.accept(SMCItems.RUBY_HOE.get());
                         pOutput.accept(SMCItems.AQUAMARINE_SWORD.get());
                         pOutput.accept(SMCItems.AQUAMARINE_SHOVEL.get());
                         pOutput.accept(SMCItems.AQUAMARINE_PICKAXE.get());
@@ -145,6 +167,22 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCItems.BURNING_DIAMOND_AXE.get());
                         pOutput.accept(SMCItems.BURNING_DIAMOND_HOE.get());
                         // Armor
+                        pOutput.accept(SMCItems.AMETHYST_HELMET.get());
+                        pOutput.accept(SMCItems.AMETHYST_CHESTPLATE.get());
+                        pOutput.accept(SMCItems.AMETHYST_LEGGINGS.get());
+                        pOutput.accept(SMCItems.AMETHYST_BOOTS.get());
+                        pOutput.accept(SMCItems.COPPER_HELMET.get());
+                        pOutput.accept(SMCItems.COPPER_CHESTPLATE.get());
+                        pOutput.accept(SMCItems.COPPER_LEGGINGS.get());
+                        pOutput.accept(SMCItems.COPPER_BOOTS.get());
+                        pOutput.accept(SMCItems.EMERALD_HELMET.get());
+                        pOutput.accept(SMCItems.EMERALD_CHESTPLATE.get());
+                        pOutput.accept(SMCItems.EMERALD_LEGGINGS.get());
+                        pOutput.accept(SMCItems.EMERALD_BOOTS.get());
+                        pOutput.accept(SMCItems.RUBY_HELMET.get());
+                        pOutput.accept(SMCItems.RUBY_CHESTPLATE.get());
+                        pOutput.accept(SMCItems.RUBY_LEGGINGS.get());
+                        pOutput.accept(SMCItems.RUBY_BOOTS.get());
                         pOutput.accept(SMCItems.AQUAMARINE_HELMET.get());
                         pOutput.accept(SMCItems.AQUAMARINE_CHESTPLATE.get());
                         pOutput.accept(SMCItems.AQUAMARINE_LEGGINGS.get());

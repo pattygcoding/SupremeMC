@@ -4,6 +4,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.pattygcoding.suprememc.SupremeMC;
 import net.pattygcoding.suprememc.init.SMCItems;
@@ -12,12 +13,24 @@ import java.util.function.Supplier;
 
 public enum SMCArmorMaterials implements ArmorMaterial
 {
+    AMETHYST("amethyst", 18, new int[]{2, 6, 5, 2}, 9,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0f, 0.0f,
+            () -> Ingredient.of(Items.AMETHYST_SHARD)),
     AQUAMARINE("aquamarine", 33, new int[]{3, 8, 6, 3}, 10,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
             () -> Ingredient.of(SMCItems.AQUAMARINE.get())),
     BURNING_DIAMOND("burning_diamond", 33, new int[]{3, 8, 6, 3}, 10,
             SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
-            () -> Ingredient.of(SMCItems.BURNING_DIAMOND.get()));
+            () -> Ingredient.of(SMCItems.BURNING_DIAMOND.get())),
+    COPPER("copper", 13, new int[]{2, 5, 4, 1}, 9,
+    SoundEvents.ARMOR_EQUIP_IRON, 0.0f, 0.0f,
+        () -> Ingredient.of(Items.COPPER_INGOT)),
+    EMERALD("emerald", 22, new int[]{3, 7, 6, 2}, 14,
+    SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0f, 0.0f,
+        () -> Ingredient.of(Items.EMERALD)),
+    RUBY("ruby", 15, new int[]{2, 6, 5, 2}, 48,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 0.0f, 0.0f,
+            () -> Ingredient.of(SMCItems.RUBY.get()));
 
     private final String name;
     private final int durabilityMultiplier;
