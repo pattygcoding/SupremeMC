@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowblock",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glow_lichen"
+    },
+    "X": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "suprememc:lime_glowblock"
+  }
+}

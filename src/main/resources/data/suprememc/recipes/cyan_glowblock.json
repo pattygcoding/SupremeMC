@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowblock",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glow_lichen"
+    },
+    "X": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "item": "suprememc:cyan_glowblock"
+  }
+}

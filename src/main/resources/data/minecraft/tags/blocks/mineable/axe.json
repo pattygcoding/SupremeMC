@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values":
+  [
+    "suprememc:acacia_bookshelf",
+    "suprememc:bamboo_bookshelf",
+    "suprememc:birch_bookshelf",
+    "suprememc:cherry_bookshelf",
+    "suprememc:crimson_bookshelf",
+    "suprememc:dark_oak_bookshelf",
+    "suprememc:jungle_bookshelf",
+    "suprememc:mangrove_bookshelf",
+    "suprememc:spruce_bookshelf",
+    "suprememc:warped_bookshelf"
+  ]
+}

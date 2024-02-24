@@ -28,6 +28,8 @@ public class SMCItems {
             () -> new Item(new Item.Properties().food(SMCFoods.COOKED_CALAMARI)));
     public static final RegistryObject<Item> COOKED_FUGU = ITEMS.register("cooked_fugu",
             () -> new Item(new Item.Properties().food(SMCFoods.COOKED_FUGU)));
+    public static final RegistryObject<Item> FRIED_EGG = ITEMS.register("fried_egg",
+            () -> new Item(new Item.Properties().food(SMCFoods.FRIED_EGG)));
     public static final RegistryObject<Item> FUGU = ITEMS.register("fugu",
             () -> new Item(new Item.Properties().food(SMCFoods.FUGU)));
     public static final RegistryObject<Item> ANDESITE_SWORD = ITEMS.register("andesite_sword",
