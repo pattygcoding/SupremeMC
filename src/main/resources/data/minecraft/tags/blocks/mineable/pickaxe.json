@@ -28,6 +28,7 @@
     "suprememc:diorite_brick_wall",
     "suprememc:diorite_bricks",
     "suprememc:deepslate_aquamarine_ore",
+    "suprememc:deepslate_ruby_ore",
     "suprememc:end_stone_slab",
     "suprememc:end_stone_stairs",
     "suprememc:end_stone_wall",
@@ -41,6 +42,8 @@
     "suprememc:polished_andesite_wall",
     "suprememc:polished_diorite_wall",
     "suprememc:polished_granite_wall",
+    "suprememc:ruby_block",
+    "suprememc:ruby_ore",
     "suprememc:smooth_stone_stairs",
     "suprememc:smooth_stone_wall",
     "suprememc:stone_wall"

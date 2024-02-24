@@ -11,7 +11,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pattygcoding.suprememc.SupremeMC;
+import net.pattygcoding.suprememc.blocks.BookshelfBlockSMC;
 import net.pattygcoding.suprememc.blocks.SlimeBlockSMC;
+import net.pattygcoding.suprememc.blocks.freezer.FreezerBlockSMC;
 
 import java.util.function.Supplier;
 
@@ -23,6 +25,8 @@ public class SMCBlocks
     public static final RegistryObject<Block> AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.METAL)));
     public static final RegistryObject<Block> BURNING_DIAMOND_BLOCK = registerBlock("burning_diamond_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.METAL)));
     public static final RegistryObject<Block> COBBLED_ANDESITE = registerBlock("cobbled_andesite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
@@ -39,11 +43,38 @@ public class SMCBlocks
     public static final RegistryObject<Block> AQUAMARINE_ORE = registerBlock("aquamarine_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> BURNING_DIAMOND_ORE = registerBlock("burning_diamond_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE).sound(SoundType.NETHER_GOLD_ORE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> LOGO_BLOCK = registerBlock("logo_block",
                     () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> FREEZER = registerBlock("freezer",
+            () -> new FreezerBlockSMC(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> SPRUCE_BOOKSHELF = registerBlock("spruce_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BIRCH_BOOKSHELF = registerBlock("birch_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> JUNGLE_BOOKSHELF = registerBlock("jungle_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ACACIA_BOOKSHELF = registerBlock("acacia_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> DARK_OAK_BOOKSHELF = registerBlock("dark_oak_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CRIMSON_BOOKSHELF = registerBlock("crimson_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> WARPED_BOOKSHELF = registerBlock("warped_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MANGROVE_BOOKSHELF = registerBlock("mangrove_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BAMBOO_BOOKSHELF = registerBlock("bamboo_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CHERRY_BOOKSHELF = registerBlock("cherry_bookshelf",
+            () -> new BookshelfBlockSMC(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF).sound(SoundType.WOOD)));
+
     public static final RegistryObject<Block> WHITE_GLOWBLOCK = registerBlock("white_glowblock",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLOWSTONE).sound(SoundType.GLASS)
                     .lightLevel((x) -> 15).mapColor(DyeColor.WHITE)));

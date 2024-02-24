@@ -1,6 +1,7 @@
 package net.pattygcoding.suprememc;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -17,6 +18,7 @@ import net.pattygcoding.suprememc.entity.client.FireCreeperRenderer;
 import net.pattygcoding.suprememc.entity.client.SnowCreeperRenderer;
 import net.pattygcoding.suprememc.entity.client.SoulCreeperRenderer;
 import net.pattygcoding.suprememc.init.*;
+import net.pattygcoding.suprememc.screens.FreezerScreen;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +35,9 @@ public class SupremeMC
         SMCBlocks.register(modEventBus);
         SMCEnchantments.register(modEventBus);
         SMCEntities.register(modEventBus);
+        SMCBlockEntities.register(modEventBus);
+        SMCRecipes.registerSerializers(modEventBus);
+        SMCMenus.register(modEventBus);
         SMCCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -58,6 +63,8 @@ public class SupremeMC
             EntityRenderers.register(SMCEntities.FIRE_CREEPER.get(), FireCreeperRenderer::new);
             EntityRenderers.register(SMCEntities.SNOW_CREEPER.get(), SnowCreeperRenderer::new);
             EntityRenderers.register(SMCEntities.SOUL_CREEPER.get(), SoulCreeperRenderer::new);
+
+            MenuScreens.register(SMCMenus.FREEZER_MENU.get(), FreezerScreen::new);
         }
     }
 }

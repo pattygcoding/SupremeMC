@@ -1,0 +1,12 @@
+{
+  "type": "suprememc:freezing",
+  "ingredient": {
+    "item": "minecraft:water_bucket"
+  },
+  "result":
+  {
+    "item": "minecraft:ice"
+  },
+  "experience": 0.3,
+  "cookingtime": 200
+}

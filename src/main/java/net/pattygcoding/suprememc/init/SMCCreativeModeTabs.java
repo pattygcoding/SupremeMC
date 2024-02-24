@@ -29,10 +29,26 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCBlocks.LOGO_BLOCK.get());
                         pOutput.accept(SMCBlocks.AQUAMARINE_BLOCK.get());
                         pOutput.accept(SMCBlocks.BURNING_DIAMOND_BLOCK.get());
+                        pOutput.accept(SMCBlocks.RUBY_BLOCK.get());
                         // Ores
                         pOutput.accept(SMCBlocks.AQUAMARINE_ORE.get());
                         pOutput.accept(SMCBlocks.DEEPSLATE_AQUAMARINE_ORE.get());
+                        pOutput.accept(SMCBlocks.RUBY_ORE.get());
+                        pOutput.accept(SMCBlocks.DEEPSLATE_RUBY_ORE.get());
                         pOutput.accept(SMCBlocks.BURNING_DIAMOND_ORE.get());
+                        // Interactive
+                        pOutput.accept(SMCBlocks.FREEZER.get());
+                        // Decoration
+                        pOutput.accept(SMCBlocks.SPRUCE_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.BIRCH_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.JUNGLE_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.ACACIA_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.DARK_OAK_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.MANGROVE_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.CHERRY_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.BAMBOO_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.CRIMSON_BOOKSHELF.get());
+                        pOutput.accept(SMCBlocks.WARPED_BOOKSHELF.get());
                         // Color Blocks
                         pOutput.accept(SMCBlocks.WHITE_GLOWBLOCK.get());
                         pOutput.accept(SMCBlocks.ORANGE_GLOWBLOCK.get());
@@ -106,6 +122,7 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCItems.RUBY.get());
                         pOutput.accept(SMCItems.COPPER_NUGGET.get());
                         // Foods
+                        pOutput.accept(SMCItems.FRIED_EGG.get());
                         pOutput.accept(SMCItems.CALAMARI.get());
                         pOutput.accept(SMCItems.COOKED_CALAMARI.get());
                         pOutput.accept(SMCItems.FUGU.get());
