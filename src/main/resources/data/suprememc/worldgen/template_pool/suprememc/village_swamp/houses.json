@@ -1,0 +1,222 @@
+{
+  "name": "suprememc:suprememc/village_swamp/houses",
+  "fallback": "suprememc:suprememc/village_swamp/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_animal_pen_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_animal_pen_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_animal_pen_3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	  {
+      "weight": 11,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_small_house_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 11,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_small_house_2",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 11,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_small_house_3",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_medium_house_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_medium_house_2",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 8,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_big_house_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 8,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_big_house_2",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_big_house_3",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_butcher_shop_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_armorer_shop_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_cartographer_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_cleric_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_small_farm_1",
+        "processors": "suprememc:farm",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_tannery_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 6,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_fisher_cottage_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_fletcher_house_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_small_library_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_masons_house_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_shepherds_house_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 6,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_tool_smith_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/houses/swamp_weaponsmith_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

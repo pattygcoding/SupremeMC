@@ -1,0 +1,21 @@
+{
+    "name": "suprememc:suprememc/village_swamp/trees",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 1,
+        "element": {
+          "feature": "minecraft:oak",
+          "projection": "rigid",
+          "element_type": "minecraft:feature_pool_element"
+        }
+      },
+    {
+        "weight": 3,
+        "element": {
+          "projection": "rigid",
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+}

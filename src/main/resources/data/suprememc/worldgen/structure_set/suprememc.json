@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "suprememc:village_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "suprememc:village_swamp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "spacing": 34,
+    "separation": 8,
+    "salt": 10387312,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -20,8 +20,16 @@ public class SMCItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EXPERIENCE_DUST = ITEMS.register("experience_dust",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RENNET_BOTTLE = ITEMS.register("rennet_bottle",
+            () -> new Item(new Item.Properties().craftRemainder(Items.GLASS_BOTTLE)));
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
+            () -> new Item(new Item.Properties().food(SMCFoods.CHEESE)));
     public static final RegistryObject<Item> CALAMARI = ITEMS.register("calamari",
             () -> new Item(new Item.Properties().food(SMCFoods.CALAMARI)));
     public static final RegistryObject<Item> COOKED_CALAMARI = ITEMS.register("cooked_calamari",

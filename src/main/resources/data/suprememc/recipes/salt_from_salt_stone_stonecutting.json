@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "suprememc:salt_stone"
+  },
+  "result": "suprememc:salt",
+  "count": 9
+}

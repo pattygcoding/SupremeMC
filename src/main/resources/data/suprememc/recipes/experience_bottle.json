@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "item": "suprememc:experience_dust"
+        }
+    ],
+    "result": {
+        "item": "minecraft:experience_bottle"
+    }
+}

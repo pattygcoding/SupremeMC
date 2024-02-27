@@ -1,0 +1,93 @@
+{
+    "name": "suprememc:suprememc/animals",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 7,
+        "element": {
+          "location": "suprememc:animals/pig",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "suprememc:animals/cow",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "suprememc:animals/chicken",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "suprememc:animals/sheep",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:animals/horse_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:animals/horse_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:animals/horse_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:animals/horse_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:animals/horse_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "suprememc:suprememc/village_jungle/zombie/house_plants",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 16,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/house_plants/potted_jungle_sapling",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/house_plants/potted_oak_sapling",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/house_plants/potted_fern",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/house_plants/potted_bamboo",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/house_plants/potted_dandelion",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/house_plants/potted_poppy",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

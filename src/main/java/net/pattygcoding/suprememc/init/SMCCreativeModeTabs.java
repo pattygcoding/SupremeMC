@@ -4,7 +4,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -20,6 +19,8 @@ public class SMCCreativeModeTabs
                     .title(Component.translatable("creativetab.suprememc_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         // Building Blocks
+                        pOutput.accept(SMCBlocks.SALT_STONE.get());
+                        pOutput.accept(SMCBlocks.SALT_BLOCK.get());
                         pOutput.accept(SMCBlocks.COBBLED_ANDESITE.get());
                         pOutput.accept(SMCBlocks.COBBLED_DIORITE.get());
                         pOutput.accept(SMCBlocks.COBBLED_GRANITE.get());
@@ -31,6 +32,14 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCBlocks.BURNING_DIAMOND_BLOCK.get());
                         pOutput.accept(SMCBlocks.RUBY_BLOCK.get());
                         // Ores
+                        pOutput.accept(SMCBlocks.SALT_ORE.get());
+                        pOutput.accept(SMCBlocks.DEEPSLATE_SALT_ORE.get());
+                        pOutput.accept(SMCBlocks.EXPERIENCE_ORE.get());
+                        pOutput.accept(SMCBlocks.DEEPSLATE_EXPERIENCE_ORE.get());
+                        pOutput.accept(SMCBlocks.QUARTZ_ORE.get());
+                        pOutput.accept(SMCBlocks.DEEPSLATE_QUARTZ_ORE.get());
+                        pOutput.accept(SMCBlocks.PRISMARINE_ORE.get());
+                        pOutput.accept(SMCBlocks.DEEPSLATE_PRISMARINE_ORE.get());
                         pOutput.accept(SMCBlocks.AQUAMARINE_ORE.get());
                         pOutput.accept(SMCBlocks.DEEPSLATE_AQUAMARINE_ORE.get());
                         pOutput.accept(SMCBlocks.RUBY_ORE.get());
@@ -117,11 +126,15 @@ public class SMCCreativeModeTabs
                         pOutput.accept(SMCBlocks.NETHERRACK_WALL.get());
                         pOutput.accept(SMCBlocks.END_STONE_WALL.get());
                         // Items
+                        pOutput.accept(SMCItems.SALT.get());
+                        pOutput.accept(SMCItems.EXPERIENCE_DUST.get());
                         pOutput.accept(SMCItems.AQUAMARINE.get());
                         pOutput.accept(SMCItems.BURNING_DIAMOND.get());
                         pOutput.accept(SMCItems.RUBY.get());
                         pOutput.accept(SMCItems.COPPER_NUGGET.get());
+                        pOutput.accept(SMCItems.RENNET_BOTTLE.get());
                         // Foods
+                        pOutput.accept(SMCItems.CHEESE.get());
                         pOutput.accept(SMCItems.FRIED_EGG.get());
                         pOutput.accept(SMCItems.CALAMARI.get());
                         pOutput.accept(SMCItems.COOKED_CALAMARI.get());

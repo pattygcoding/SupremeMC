@@ -1,0 +1,42 @@
+{
+  "name": "suprememc:suprememc/village_swamp/village_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "suprememc:village_swamp/town_centers/swamp_meeting_point_1",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 50,
+      "element": {
+        "location": "suprememc:village_swamp/town_centers/swamp_meeting_point_2",
+        "processors": "suprememc:mossify_30_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+         "location": "suprememc:village_swamp/zombie/town_centers/swamp_meeting_point_1",
+         "processors": "suprememc:zombie_swamp",
+         "projection": "rigid",
+         "element_type": "minecraft:legacy_single_pool_element"
+         }
+    },
+  {
+      "weight": 1,
+      "element": {
+         "location": "suprememc:village_swamp/zombie/town_centers/swamp_meeting_point_2",
+         "processors": "suprememc:zombie_swamp",
+         "projection": "rigid",
+         "element_type": "minecraft:legacy_single_pool_element"
+       }
+    }
+  ]
+}

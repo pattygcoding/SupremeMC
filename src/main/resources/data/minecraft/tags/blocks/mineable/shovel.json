@@ -2,6 +2,7 @@
   "replace": false,
   "values":
   [
-    "suprememc:logo_block"
+    "suprememc:logo_block",
+    "suprememc:salt_block"
   ]
 }
