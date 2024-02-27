@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "suprememc:experience_bottle"
+    ]
+  },
+  "criteria": {
+    "has_ruby_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "suprememc:experience_dust"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "suprememc:experience_bottle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ruby_block",
+      "has_the_recipe"
+    ]
+  ]
+}

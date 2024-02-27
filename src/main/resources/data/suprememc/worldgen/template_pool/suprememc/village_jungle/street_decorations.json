@@ -1,0 +1,51 @@
+{
+  "name": "suprememc:suprememc/village_jungle/street_decorations",
+  "fallback": "suprememc:suprememc/village_jungle/terminators",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_jungle/street_decorations/hay_bale_pile",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_jungle/street_decorations/strapped_jungle_logs",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_jungle/street_decorations/small_bamboo_farm",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_jungle/street_decorations/small_campfire_tower",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_jungle/street_decorations/jungle_street_lamp",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

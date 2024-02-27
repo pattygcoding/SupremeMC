@@ -1,0 +1,103 @@
+{
+  "name": "suprememc:suprememc/cats",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_black",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_british_shorthair",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_calico",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_jellie",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_persian",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_ragdoll",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_red",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_siamese",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_tabby",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:animals/cats/cat_white",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "element": {
+        "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 4
+    }
+  ]
+}

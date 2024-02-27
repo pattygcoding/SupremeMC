@@ -1,0 +1,222 @@
+{
+  "name": "suprememc:suprememc/village_jungle/zombie/houses",
+  "fallback": "suprememc:suprememc/village_jungle/terminators",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_animal_pen_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_animal_pen_2",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_animal_pen_3",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	  {
+      "weight": 11,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_small_house_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 11,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_small_house_2",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 11,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_small_house_3",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_medium_house_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 10,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_medium_house_2",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 8,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_big_house_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 8,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_big_house_2",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_big_house_3",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_butcher_shop_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_armorer_shop_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_cartographer_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_cleric_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_small_farm_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_tannery_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 6,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_fisher_cottage_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_fletcher_house_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_medium_library_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_masons_house_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_shepherds_house_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 6,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_tool_smith_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_jungle/zombie/houses/jungle_weaponsmith_1",
+        "processors": "suprememc:zombie_jungle",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

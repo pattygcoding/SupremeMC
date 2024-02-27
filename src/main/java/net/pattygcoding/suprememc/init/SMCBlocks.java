@@ -40,14 +40,35 @@ public class SMCBlocks
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS).sound(SoundType.STONE)));
     public static final RegistryObject<Block> GRANITE_BRICKS = registerBlock("granite_bricks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SALT_BLOCK = registerBlock("salt_block",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> SALT_STONE = registerBlock("salt_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> AQUAMARINE_ORE = registerBlock("aquamarine_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> DEEPSLATE_AQUAMARINE_ORE = registerBlock("deepslate_aquamarine_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).sound(SoundType.DEEPSLATE), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> EXPERIENCE_ORE = registerBlock("experience_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> DEEPSLATE_EXPERIENCE_ORE = registerBlock("deepslate_experience_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.DEEPSLATE), UniformInt.of(3, 7)));
+    public static final RegistryObject<Block> QUARTZ_ORE = registerBlock("quartz_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.STONE), UniformInt.of(1, 5)));
+    public static final RegistryObject<Block> DEEPSLATE_QUARTZ_ORE = registerBlock("deepslate_quartz_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.DEEPSLATE), UniformInt.of(1, 5)));
+    public static final RegistryObject<Block> PRISMARINE_ORE = registerBlock("prismarine_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.STONE), UniformInt.of(2, 6)));
+    public static final RegistryObject<Block> DEEPSLATE_PRISMARINE_ORE = registerBlock("deepslate_prismarine_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.DEEPSLATE), UniformInt.of(2, 6)));
+    public static final RegistryObject<Block> SALT_ORE = registerBlock("salt_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.STONE), UniformInt.of(0, 2)));
+    public static final RegistryObject<Block> DEEPSLATE_SALT_ORE = registerBlock("deepslate_salt_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.DEEPSLATE), UniformInt.of(0, 2)));
+
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).sound(SoundType.STONE), UniformInt.of(3, 7)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE).sound(SoundType.DEEPSLATE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> BURNING_DIAMOND_ORE = registerBlock("burning_diamond_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHER_GOLD_ORE).sound(SoundType.NETHER_GOLD_ORE), UniformInt.of(3, 7)));
     public static final RegistryObject<Block> LOGO_BLOCK = registerBlock("logo_block",

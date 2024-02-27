@@ -7,6 +7,8 @@ import net.minecraft.world.food.FoodProperties;
 public class SMCFoods {
     public static final FoodProperties CALAMARI = new FoodProperties.Builder()
             .nutrition(2).saturationMod(0.1F).meat().build();
+    public static final FoodProperties CHEESE = new FoodProperties.Builder()
+            .nutrition(3).saturationMod(0.4F).build();
     public static final FoodProperties COOKED_CALAMARI = new FoodProperties.Builder()
             .nutrition(6).saturationMod(0.8F).meat().build();
     public static final FoodProperties COOKED_FUGU = new FoodProperties.Builder()

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "suprememc:experience_dust_from_smelting_deepslate_experience_ore"
+    ]
+  },
+  "criteria": {
+    "has_experience_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "suprememc:deepslate_experience_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "suprememc:experience_dust_from_smelting_deepslate_experience_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_experience_block",
+      "has_the_recipe"
+    ]
+  ]
+}

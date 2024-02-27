@@ -1,0 +1,51 @@
+{
+  "name": "suprememc:suprememc/village_swamp/house_plants",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 60,
+      "element": {
+        "location": "suprememc:village_swamp/house_plants/potted_oak_sapling",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 50,
+      "element": {
+        "location": "suprememc:village_swamp/house_plants/potted_blue_orchid",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "suprememc:village_swamp/house_plants/potted_brown_mushroom",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }, 
+  {
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_swamp/house_plants/potted_red_mushroom",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/house_plants/potted_mangrove_propagule",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

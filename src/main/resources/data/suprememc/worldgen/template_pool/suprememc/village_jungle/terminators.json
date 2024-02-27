@@ -1,0 +1,42 @@
+{
+    "name": "suprememc:suprememc/village_jungle/terminators",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:terminators/terminator_1",
+          "processors": "suprememc:street_jungle",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:terminators/terminator_2",
+          "processors": "suprememc:street_jungle",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:terminators/terminator_3",
+          "processors": "suprememc:street_jungle",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "suprememc:terminators/terminator_4",
+          "processors": "suprememc:street_jungle",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,150 @@
+{
+  "name": "suprememc:suprememc/village_swamp/streets",
+  "fallback": "suprememc:suprememc/village_swamp/terminators",
+  "elements": [
+    {
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/streets/straight_1",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/streets/straight_2",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "suprememc:village_swamp/streets/straight_3",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 5,
+      "element": {
+        "location": "suprememc:village_swamp/streets/straight_4",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 7,
+      "element": {
+        "location": "suprememc:village_swamp/streets/straight_5",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 6,
+      "element": {
+        "location": "suprememc:village_swamp/streets/straight_6",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_swamp/streets/corner_1",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_swamp/streets/corner_2",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 4,
+      "element": {
+        "location": "suprememc:village_swamp/streets/corner_3",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_swamp/streets/crossroad_1",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/streets/crossroad_2",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/streets/crossroad_3",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/streets/crossroad_4",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/streets/crossroad_5",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 1,
+      "element": {
+        "location": "suprememc:village_swamp/streets/crossroad_6",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+  {
+      "weight": 2,
+      "element": {
+        "location": "suprememc:village_swamp/streets/turn_1",
+        "processors": "suprememc:street_swamp",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
